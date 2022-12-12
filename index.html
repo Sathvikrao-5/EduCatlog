@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+    </script>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli"
+      rel="stylesheet"
+    />
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/new-age.css" rel="stylesheet" />
+
+      <meta charset="utf-8">
+      <meta name="language" content="English">
+      <meta name="geo.region" content="Hyderabad" />
+      <meta name="geo.placename" content="India" />
+      <meta name="robots" content="index, follow" />
+
+      
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+      <title>Educatlog
+      </title>
+
+  </head>
+
+  <body ng-app="myapp" ng-controller="MainCtrl">
+    
+	  <header id="page-top" >
+      <div class="container h-50">
+        <div class="row">
+          <div class="my-auto">
+            <div class=" mx-auto">
+
+                <center>
+              <p class="" style="display:inline;"><div>
+                   <img src="img/EduCatalog_logo.png" width="100" height="100" alt="..."></div>
+				   <div>
+                    <h1 class="mb-2" style="font-weight:400; text-align: center; ">
+                        <b>EduCatalog</b>
+                    </h1></div>
+              </p>
+                </center>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </header>
+	
+	
+	
+    <section class="features" id="login">
+     <div class="container-fluid">
+        <center> 
+          <h1><b>LOGIN</b></h1><br>
+        </center>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <center>
+            
+            <h5>Login for Students</h5><br>
+            <form name="student" action="login_validate.php">
+			Enter student id : <input type="text" name="s_id" value=""/>
+			<br><br>
+			Enter password : <input type="password" name="s_pswd" value=""/>
+			<br><br>
+			<input class="btn" type="submit" name="s_submit" value="LOGIN"/>
+			</form>
+          </center>
+        </div>
+        
+        <div class="col-4">
+          <center>
+            
+            <h5>Login for Faculty</h5><br>
+            <form name="faculty" action="login_validate.php">
+			Enter faculty id : <input type="text" name="f_id" value=""/>
+			<br><br>
+			Enter password : <input type="password" name="f_pswd" value=""/>
+			<br><br>
+			<input class="btn" type="submit" name="f_submit" value="LOGIN"/>
+			</form>
+          </center>
+        </div>
+ 
+        <div class="col-4">
+          <center>
+            <h5>Login for Administrators</h5><br>
+            <form name="admin" action="login_validate.php">
+			Enter admin id : <input type="text" name="a_id" value=""/>
+			<br><br>
+			Enter password : <input type="password" name="a_pswd" value=""/>
+			<br><br>
+			<input class="btn" type="submit" name="a_submit" value="LOGIN"/>
+			</form>
+          </center>
+        </div>
+
+      </div>
+    </section>
+   
+    
+    <br><br><br><br>
+
+    <footer>
+      <div class="container">
+          <p>Educatalog</p>
+          <p>Ph : +91-9000000009 Email: info@educatalog.in </p>
+        
+
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/new-age.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143176355-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143176355-1');
+</script>
+
+
+    <!--
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyA7zwp_8-2A4iw6mQlLGR52hvfB4ugiTbc"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="./app.js"></script>
+
+    <div id="map"></div>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="d3map.js"></script>
+    -->
+
+
+  </body>
+</html>
